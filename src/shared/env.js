@@ -1,4 +1,4 @@
-const { version } = require("../package.json");
+const { version } = require("../../package.json");
 
 function combineURLs(baseURL, relativeURL) {
   return relativeURL
