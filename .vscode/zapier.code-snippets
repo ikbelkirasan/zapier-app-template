@@ -772,5 +772,13 @@
       ""
     ],
     "description": "Zapier Search Test example"
-  }
+	},
+	"zapier-oauth2-callback-url": {
+		"scope": "javascript,typescript",
+		"prefix": "zapier:auth:oauth2:callback",
+		"body": [
+			"\"https://zapier.com/dashboard/auth/oauth/return/App$1CLIAPI/\"",
+		],
+		"description": "Insert Zapier OAuth2 Callback link"
+	}
 }
