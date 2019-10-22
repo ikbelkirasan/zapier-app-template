@@ -6,7 +6,7 @@
   "license": "BSD-3-Clause",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --recursive --reporter min",
+    "test": "mocha --recursive --reporter ./test/__reporter__",
     "fmt": "prettier --write *.{js,ts,json} ./**/*.{js,ts,json}"
   },
   "engines": {
