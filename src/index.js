@@ -9,7 +9,7 @@ const App = {
   resources: {},
   triggers: {},
   searches: {},
-  creates: {}
+  creates: {},
 };
 
 module.exports = App;

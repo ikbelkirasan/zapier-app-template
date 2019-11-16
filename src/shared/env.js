@@ -13,5 +13,5 @@ module.exports = {
   APP_VERSION: version,
   api(uri) {
     return combineURLs(API_URL, uri);
-  }
+  },
 };
